@@ -10,14 +10,62 @@ purpose of testing different html/css/javascript designs in a quick, hacky
   </head>
 
   <body>
+    <!-- Header of the page, at the moment displaying a logo. -->
+    <header>
+      <img src="logo.png" height="85px" width="125px"/>
+    </header>
+
+    <!-- Navigation menu for the website. -->
     <nav>
       <ul>
-        <li><a href="http://i.imgur.com/pFcSNgm.jpg">Home</a></li>
-        <li><a href="http://i.imgur.com/pFcSNgm.jpg">General Programming</a></li>
-        <li><a href="http://i.imgur.com/pFcSNgm.jpg">Web Design</a></li>
+        <li><a href="http://i.imgur.com/pFcSNgm.jpg">Mocha</a></li>
         <li><a href="http://i.imgur.com/pFcSNgm.jpg">Resume</a></li>
         <li><a href="http://i.imgur.com/pFcSNgm.jpg">Contact</a></li>
       </ul>
     </nav>
+
+    <!-- Generic section of the document, used for thematic grouping of
+    content - a specialized div?-->
+    <section>
+      <h1>Heading of the Section</h1>
+      <p>
+        This is the paragraph content inside of the section tags.
+        This website doesn't do anything, I'm still trying to wrap
+        my head around how to properly position elements within the webpage.
+        What I expect to work sometimes just does nothing...
+      </p>
+    </section>
+
+    <!-- Independent section of content: blog post, forum post, comment,
+    etc. -->
+    <article>
+      <h1>Heading of the Article</h1>
+      <p>
+        Positioning is hard enough to get right on a single size browser.
+        Once you start resizing and using different screens... bleh.
+      </p>
+    </article>
+
+    <!-- Houses content related to the surrounding content, but is a
+    standalone piece of content itself. Removing this shouldn't alter the
+    meaning or clarity of the page.-->
+    <aside>
+      <figure>
+        <img src="http://i.imgur.com/pFcSNgm.jpg" height="400px" width="268px"/>
+        <figcaption>This is Mocha the cat!</figcaption>
+      </figure>
+      <p>
+        Mocha is a pretty awesome cat, and he will soon be famous.
+        Be one of the first to follow him on
+        <a href="https://www.instagram.com/mochathecatnotthedrink/">Instagram!</a>
+      </p>
+    </aside>
+
+    <!-- Footer represents the footer of a whole page or a section element.
+    Holds footer information: copyright, etc.-->
+    <footer>
+      <hr/>
+      Not Copyright (C) 2015. No rights reserved.
+    </footer>
   </body>
 </html>

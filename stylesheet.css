@@ -1,56 +1,77 @@
 body {
   width: 100%;
-  max-width: 960px;
-  margin: 0 auto;
-  font-family: arial, sans-serif;
+  margin: 0;
+  font-family: verdana, sans-serif;
   font-size: 13px;
 }
 
+article {
+  padding: 5px;
+  margin-top: 5px;
+  margin: auto;
+  max-width: 500px;
+}
+
+article h1 {
+  text-align: center;
+}
+
+header {
+  padding: 0px;
+  text-align: center;
+
+}
+
+aside {
+  margin-top: 5px;
+  margin:auto;
+  padding: 5px;
+  text-align: center;
+  font-style: italic;
+  max-width: 500px;
+}
+
+section {
+  padding: 5px;
+  margin-top: 5px;
+  margin: auto;
+  max-width: 500px;
+}
+
+section h1 {
+  text-align: center;
+}
+
+footer {
+  padding: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+
 nav {
-  width: 100%;
-  margin: 20px 0;
-}
-
-nav ul {
-  padding: 0; /* Remove the default padding */
-  list-style: none;
   text-align: center;
-  overflow: hidden;
+
+  padding-bottom: 20px;
 }
 
-nav ul li {
-  float: left;
-  width: 20%;
+ul {
+  margin: 0px;
+  padding: 0px;
 }
 
-nav ul li a {
-  text-align: center;
-  padding: 8px 0;
-  display: block;
-  width: 100%;
-  background: -webkit-linear-gradient(top, #A7D8D8 0%, #69D2E7 100%);
+ul li {
+  display: inline;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: left;
+  font-size: 16px;
+  font-weight: bold;
 }
 
-nav ul li a,
-nav ul li a:focus,
-nav ul li a:visited,
-nav ul li a:hover,
-nav ul li a:active {
-  color: #000;
+a,
+a:hover,
+a:visited,
+a:link {
+  color: #F26430;
   text-decoration: none;
-}
-
-nav ul li a:hover,
-nav ul li a:active {
-  background: -webkit-linear-gradient(top, #B8E9E9 0%, #7AE3F8 100%);
-}
-
-nav ul li:first-child a {
-  border-top-left-radius: 8px;
-  border-bottom-left-radius: 8px;
-}
-
-nav ul li:last-child a {
-  border-top-right-radius: 8px;
-  border-bottom-right-radius: 8px;
 }
