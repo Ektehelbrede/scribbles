@@ -75,3 +75,12 @@ a:link {
   color: #F26430;
   text-decoration: none;
 }
+
+div {
+  text-align: center;
+}
+
+div ul li img {
+  height: 100px;
+  width: 100px;
+}
